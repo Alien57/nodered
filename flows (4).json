@@ -1,0 +1,1166 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Stallsteuerung",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e52ae2e73d8f99c4",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9bcf07f55a644f48",
+        "type": "ui_tab",
+        "d": true,
+        "name": "Stal",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "113133e75befba26",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#000000",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Stall",
+                "default": "#4B7930",
+                "baseColor": "#783e30",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#000000",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#262626",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial,Arial,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Stall Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "false",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "73be82e461875480",
+        "type": "ui_group",
+        "name": "Viehhüter",
+        "tab": "9bcf07f55a644f48",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": "nr-dashboard-cardtitle {     color: #ffffff;     text-align: center; }"
+    },
+    {
+        "id": "f4dbdf17dfba28e5",
+        "type": "ui_group",
+        "name": "Ventilator",
+        "tab": "9bcf07f55a644f48",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4ad322fe8e62989a",
+        "type": "ui_group",
+        "name": "Licht",
+        "tab": "9bcf07f55a644f48",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "89b8dfe272826fa5",
+        "type": "ui_tab",
+        "name": "New",
+        "icon": "mi-power_settings_new",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d6af33f37dafd5a8",
+        "type": "ui_group",
+        "name": "Viehhüter",
+        "tab": "89b8dfe272826fa5",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": "center"
+    },
+    {
+        "id": "e08ec9a5b9e3a751",
+        "type": "ui_group",
+        "name": "Ventilator",
+        "tab": "89b8dfe272826fa5",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "95c1f9a81307633e",
+        "type": "ui_group",
+        "name": "Licht",
+        "tab": "89b8dfe272826fa5",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bd17ac3cedb03c4d",
+        "type": "ui_group",
+        "name": "css Example",
+        "tab": "36c718bbfb373d6d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fb28dcf88cc50447",
+        "type": "ui_group",
+        "name": "Office",
+        "tab": "2abb29f12f2ef82e",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "36c718bbfb373d6d",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2abb29f12f2ef82e",
+        "type": "ui_tab",
+        "name": "Airsense",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "81b1bdc3.9a60b8",
+        "type": "ui_group",
+        "name": "Hacks",
+        "tab": "2f5baa7e.0221fe",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2f5baa7e.0221fe",
+        "type": "ui_tab",
+        "name": "Settings",
+        "icon": "timeline",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3cc11d24.ff01a2",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "WARNING: please check you have started this container with a volume that is mounted to /data\\n otherwise any flow changes are lost when you redeploy or upgrade the container\\n (e.g. upgrade to a more recent node-red docker image).\\n  If you are using named volumes you can ignore this warning.\\n Double click or see info side panel to learn how to start Node-RED in Docker to save your work",
+        "info": "\nTo start docker with a bind mount volume (-v option), for example:\n\n```\ndocker run -it -p 1880:1880 -v /home/user/node_red_data:/data --name mynodered nodered/node-red\n```\n\nwhere `/home/user/node_red_data` is a directory on your host machine where you want to store your flows.\n\nIf you do not do this then you can experiment and redploy flows, but if you restart or upgrade the container the flows will be disconnected and lost. \n\nThey will still exist in a hidden data volume, which can be recovered using standard docker techniques, but that is much more complex than just starting with a named volume as described above.",
+        "x": 350,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "eb3f9226bec30c22",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "V Aus 173",
+        "group": "f4dbdf17dfba28e5",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Aus",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "173",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [
+                "0d1b88ade063d601",
+                "2203d28a3218f35e"
+            ]
+        ]
+    },
+    {
+        "id": "0d1b88ade063d601",
+        "type": "http request",
+        "z": "f6f2187d.f17ca8",
+        "name": "Request Out",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://192.168.249.17/control?scene={{{payload}}}&user=admin&pass=2506",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 590,
+        "y": 600,
+        "wires": [
+            [
+                "57a27b4a98f2751b"
+            ]
+        ],
+        "info": "test"
+    },
+    {
+        "id": "79a970bde369cd17",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "V Ein 175",
+        "group": "f4dbdf17dfba28e5",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ein",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "175",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 260,
+        "wires": [
+            [
+                "0d1b88ade063d601",
+                "1f17258935a9363f"
+            ]
+        ]
+    },
+    {
+        "id": "c9a1d57fc5c83a58",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "L Ein 171",
+        "group": "4ad322fe8e62989a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ein",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "171",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 340,
+        "wires": [
+            [
+                "0d1b88ade063d601",
+                "175d1003b70abe9d"
+            ]
+        ]
+    },
+    {
+        "id": "222753849432859c",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "L Aus 141",
+        "group": "4ad322fe8e62989a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Aus",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "141",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "0d1b88ade063d601",
+                "c0e03d4129a49134"
+            ]
+        ]
+    },
+    {
+        "id": "e6cea1036913d48e",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "VH Aus 245",
+        "group": "73be82e461875480",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Aus",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "245",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 380,
+        "wires": [
+            [
+                "0d1b88ade063d601",
+                "be7eb1a208ed2674"
+            ]
+        ],
+        "info": "Schaltet den Viehhüter aus"
+    },
+    {
+        "id": "8db25fb7f627bdeb",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "VH Ein 246",
+        "group": "73be82e461875480",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ein",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "246",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 420,
+        "wires": [
+            [
+                "0d1b88ade063d601",
+                "64bc42bc1f416b0a"
+            ]
+        ]
+    },
+    {
+        "id": "6bd08f2e891c40ee",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "4ad322fe8e62989a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Status Licht",
+        "label": "Status:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 690,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "175d1003b70abe9d",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "L Ein",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Ein",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "6bd08f2e891c40ee"
+            ]
+        ]
+    },
+    {
+        "id": "c0e03d4129a49134",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "L Aus",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Aus",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 300,
+        "wires": [
+            [
+                "6bd08f2e891c40ee"
+            ]
+        ]
+    },
+    {
+        "id": "68bfb956fe886038",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "73be82e461875480",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Status Viehhüter",
+        "label": "Status:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 700,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "64bc42bc1f416b0a",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "VH Ein",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Ein",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 420,
+        "wires": [
+            [
+                "68bfb956fe886038"
+            ]
+        ]
+    },
+    {
+        "id": "be7eb1a208ed2674",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "VH Aus",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Aus",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 380,
+        "wires": [
+            [
+                "68bfb956fe886038"
+            ]
+        ]
+    },
+    {
+        "id": "d211e76611ea5fd0",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "f4dbdf17dfba28e5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Status Ventilator",
+        "label": "Status:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 700,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "1f17258935a9363f",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "V Ein",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Ein",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "d211e76611ea5fd0"
+            ]
+        ]
+    },
+    {
+        "id": "2203d28a3218f35e",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "V Aus",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Aus",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 220,
+        "wires": [
+            [
+                "d211e76611ea5fd0"
+            ]
+        ]
+    },
+    {
+        "id": "22b4d666330ddbb1",
+        "type": "ui_led",
+        "z": "f6f2187d.f17ca8",
+        "order": 1,
+        "group": "95c1f9a81307633e",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "171",
+                "valueType": "str"
+            },
+            {
+                "color": "#c0c0c0",
+                "value": "141",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Licht",
+        "x": 570,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "a41d85f2d5699a57",
+        "type": "ui_switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "label": "Licht",
+        "tooltip": "",
+        "group": "95c1f9a81307633e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "171",
+        "onvalueType": "str",
+        "onicon": "mi-power_settings_new",
+        "oncolor": "red",
+        "offvalue": "141",
+        "offvalueType": "str",
+        "officon": "mi-power_settings_new",
+        "offcolor": "black",
+        "animate": true,
+        "className": "",
+        "x": 190,
+        "y": 740,
+        "wires": [
+            [
+                "22b4d666330ddbb1",
+                "0d1b88ade063d601"
+            ]
+        ]
+    },
+    {
+        "id": "e5a9eb71e5aa93d3",
+        "type": "ui_switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "label": "Ventilator",
+        "tooltip": "",
+        "group": "e08ec9a5b9e3a751",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "175",
+        "onvalueType": "str",
+        "onicon": "mi-power_settings_new",
+        "oncolor": "red",
+        "offvalue": "173",
+        "offvalueType": "str",
+        "officon": "mi-power_settings_new",
+        "offcolor": "black",
+        "animate": false,
+        "className": "",
+        "x": 200,
+        "y": 800,
+        "wires": [
+            [
+                "af5957469d509fc4",
+                "0d1b88ade063d601"
+            ]
+        ]
+    },
+    {
+        "id": "af5957469d509fc4",
+        "type": "ui_led",
+        "z": "f6f2187d.f17ca8",
+        "order": 1,
+        "group": "e08ec9a5b9e3a751",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "175",
+                "valueType": "str"
+            },
+            {
+                "color": "#c0c0c0",
+                "value": "173",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Ventilator",
+        "x": 580,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "5544e9d36297cf95",
+        "type": "ui_led",
+        "z": "f6f2187d.f17ca8",
+        "order": 1,
+        "group": "d6af33f37dafd5a8",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "246",
+                "valueType": "str"
+            },
+            {
+                "color": "#c0c0c0",
+                "value": "245",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Viehhüter",
+        "x": 580,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "9475d6fb3ecbcfd9",
+        "type": "ui_switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "label": "Viehhüter",
+        "tooltip": "",
+        "group": "d6af33f37dafd5a8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "246",
+        "onvalueType": "str",
+        "onicon": "mi-power_settings_new",
+        "oncolor": "red",
+        "offvalue": "245",
+        "offvalueType": "str",
+        "officon": "mi-power_settings_new",
+        "offcolor": "black",
+        "animate": true,
+        "className": "",
+        "x": 200,
+        "y": 680,
+        "wires": [
+            [
+                "5544e9d36297cf95",
+                "0d1b88ade063d601"
+            ]
+        ]
+    },
+    {
+        "id": "57a27b4a98f2751b",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "529b31ad4170686a",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "07:30",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "30 07 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "tag",
+        "payloadType": "str",
+        "x": 170,
+        "y": 980,
+        "wires": [
+            [
+                "26f17cc5888cc997",
+                "54785618e1fde6ed"
+            ]
+        ]
+    },
+    {
+        "id": "e3273e7f08df88bd",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "18:00",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 18 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "nacht",
+        "payloadType": "str",
+        "x": 170,
+        "y": 1040,
+        "wires": [
+            [
+                "26f17cc5888cc997",
+                "54785618e1fde6ed"
+            ]
+        ]
+    },
+    {
+        "id": "26f17cc5888cc997",
+        "type": "ui_led",
+        "z": "f6f2187d.f17ca8",
+        "order": 3,
+        "group": "e08ec9a5b9e3a751",
+        "width": 0,
+        "height": 0,
+        "label": "Tag von 07:30-18:00",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ffff00",
+                "value": "tag",
+                "valueType": "str"
+            },
+            {
+                "color": "#c0c0c0",
+                "value": "nacht",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Zeit Relais",
+        "x": 410,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "27839aafda8fef39",
+        "type": "ui_switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "Nach Zeit",
+        "label": "Automatisch nach Zeit",
+        "tooltip": "",
+        "group": "e08ec9a5b9e3a751",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "enabled",
+        "onvalueType": "str",
+        "onicon": "mi-power_settings_new",
+        "oncolor": "yellow",
+        "offvalue": "disabled",
+        "offvalueType": "str",
+        "officon": "mi-power_settings_new",
+        "offcolor": "black",
+        "animate": true,
+        "className": "",
+        "x": 160,
+        "y": 1100,
+        "wires": [
+            [
+                "751b5f6e64397978"
+            ]
+        ]
+    },
+    {
+        "id": "54785618e1fde6ed",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "prüfe global.automatic",
+        "func": "var TagNacht = msg.payload;\n\nvar auto = global.get('automatic');\n\nif (auto == 'disabled') {\n    \n    return;\n}\nvar ostring1 ;\nswitch (TagNacht)\n{\n    case \"tag\":\n        ostring1 = \"175\";\n        break;\n    case \"nacht\":\n        ostring1 = \"173\";\n        break;\n}\n\nvar OutMsg = {\n    payload: ostring1\n}\n\nreturn OutMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 980,
+        "wires": [
+            [
+                "e5a9eb71e5aa93d3"
+            ]
+        ]
+    },
+    {
+        "id": "751b5f6e64397978",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "automatic",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd5f965e.fb70b8",
+        "type": "ui_template",
+        "z": "e52ae2e73d8f99c4",
+        "group": "81b1bdc3.9a60b8",
+        "name": "CSS-Basics",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    * {\n        //background: none !important;\n    }\n\n    root,\n    a,\n    button,\n    p,\n    div {\n        -webkit-user-select: none !important;\n\n    }\n\n    body {\n        background-image: url(\"https://www.rood.ch/images/t2.jpg\");\n        /*background: linear-gradient(120deg, rgba(40, 42, 49, 1.0) 40%, rgba(47, 49, 56, 1.0) 80%) !important;*/\n        background-size: cover !important;\n        \n        //background: transparent !important;\n\n        /*background: -webkit-linear-gradient(55deg,\n                #009785 0%,\n                #245aa5 100%) !important;\n\n        -webkit-touch-callout: none !important;\n        color: #ffffff !important;\n        padding-top: 5px !important;\n        */\n    }\n\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {}\n\n\n    ui-card-panel {\n        background-color: rgba(250, 250, 250, 0.3) !important;\n        border: none !important;\n        border-radius: 10px !important;\n        /*        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19) !important;\n*/\n    }\n\n    .nr-dashboard-cardtitle {\n    text-align: center;\n    color: #ffffff;\n    }\n\n    ui-card-panel>div.nr-dashboard-cardpanel>div>md-card {\n        background: none !important;\n    }\n\n    ui-card-panel>div.nr-dashboard-cardpanel button {\n        //background: none !important;*/\n    }\n\n    md-toolbar {\n        background: none !important;\n    }\n\n    md-sidenav {\n        background: linear-gradient(120deg, rgba(40, 42, 49, 0.90) 20%, rgba(47, 49, 56, 0.90) 80%) !important;\n    }\n\n    md-card.nr-dashboard-button * {\n        box-shadow: none !important;\n    }\n\n    md-card.nr-dashboard-template * {\n        //background: none !important;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 330,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b498705a9c1bf59d",
+        "type": "ui_toast",
+        "z": "e52ae2e73d8f99c4",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": true,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 350,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "717c5891f47e9f34",
+        "type": "inject",
+        "z": "e52ae2e73d8f99c4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "status.text",
+                "v": "test",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Warning an alle",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 340,
+        "wires": [
+            [
+                "b498705a9c1bf59d",
+                "f38e91c9390736cb"
+            ]
+        ]
+    },
+    {
+        "id": "1abdb9cd11b1d3d1",
+        "type": "file",
+        "z": "e52ae2e73d8f99c4",
+        "name": "test23",
+        "filename": "test.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 570,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f38e91c9390736cb",
+        "type": "function",
+        "z": "e52ae2e73d8f99c4",
+        "name": "function 1",
+        "func": "var time1 = msg.payload.time;\nvar date1 = new Date();\n\n\nvar string1 = \"\";\nstring1 += date1;\nstring1 += \" test message from us :\";\nstring1 += msg.topic;\nvar OutMsg = {\n    payload: string1\n}\n\nreturn OutMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 340,
+        "wires": [
+            [
+                "1abdb9cd11b1d3d1"
+            ]
+        ]
+    }
+]
